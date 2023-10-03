@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "1aa37b95-13dd-4440-8967-10f70f53a4ec",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20146621",
+		"_collection_link": "https://martian-star-217545.postman.co/workspace/autoresearch-ai-agent-langchain~a4d7ee33-e9af-4c50-8cf2-52383b6e221b/collection/20146621-1aa37b95-13dd-4440-8967-10f70f53a4ec?action=share&source=collection_link&creator=20146621"
+	},
+	"item": [
+		{
+			"name": "localhost:5000/research",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"keyword\" : \"black swan movie\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/research",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"research"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/reports",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"keyword\" : \"black swan movie\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/reports",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"reports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
