@@ -1,3 +1,6 @@
+# autogpt and serpapi key error
+    make sure to get new openai and serpapi api key , is this will not work after pushing it to github
+
 # ground work for initializing the project
 
 ### creating virtual environment
@@ -54,4 +57,6 @@
     hackathon project
     $ pip install PyPDF2
     $ pip install PyCryptodome
+
+
 
